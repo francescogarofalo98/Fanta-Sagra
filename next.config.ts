@@ -1,8 +1,7 @@
 import type { NextConfig } from "next";
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  turbopack: {},
-}
+const nextConfig: NextConfig = {
+  /* config options here */
+};
 
-module.exports = nextConfig
+export default nextConfig;
