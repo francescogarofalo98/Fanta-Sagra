@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.card {
+  @apply rounded-2xl bg-white p-4 shadow-md border border-gray-200;
+}
+
+.card-dark {
+  @apply rounded-2xl bg-black text-white p-4 shadow-md;
+}
+
+.button {
+  @apply w-full rounded-xl bg-black p-3 text-white font-semibold active:scale-95 transition;
+}
+
+.input {
+  @apply w-full rounded-xl border border-gray-300 p-3 bg-white;
+}
+
+.subtitle {
+  @apply text-sm text-gray-500 font-medium;
+}
