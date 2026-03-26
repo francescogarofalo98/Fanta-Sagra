@@ -71,7 +71,7 @@ export default async function MiaSquadraPage() {
         .in('participant_id', participantIds)
         .order('score_date', { ascending: false })
         .order('created_at', { ascending: false })
-    : { data: [], error: null }
+    : { data: [] }
 
   return (
     <main className="mx-auto max-w-4xl p-6">
